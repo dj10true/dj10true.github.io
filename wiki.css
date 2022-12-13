@@ -1,0 +1,27 @@
+*body meta{
+  margin: 0;
+  padding: 0;
+  viewport-fit: 100%;
+ 
+}
+
+body{
+  background-image: url(img/bg_a.jpg);
+  height: 100%;
+  width: fit-content;
+}
+
+.main-links ul li
+{
+  background-color: red;
+  border-radius: 6px;
+  list-style: none;
+}
+  
+
+
+
+
+
+
+

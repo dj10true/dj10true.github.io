@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "wiki"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "doll-temp"
+	}
+}

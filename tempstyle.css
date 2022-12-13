@@ -1,0 +1,156 @@
+*body
+{
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    margin: 0 auto;
+    padding: 0;
+    background-size: 45% 70px;
+    background-position: 200px 9px;
+    flex-wrap: wrap;
+    background-color: grey;
+    background-image: url(img/Login_Logo.png);
+    background-repeat: no-repeat;
+}
+.wrapper
+ {
+ margin: 0 auto;
+ padding: 1;
+ width: 100%;
+ height: 100%;
+ flex-wrap: wrap;
+ background-image: url(img/blackback.png)
+ background-repeat: no-repeat;
+ }
+
+.doll-bg
+{
+background-image: url(img/bg_a.jpg);
+padding: 65px 24px 25px;
+background-position: cover;
+ background-repeat: no-repeat;
+background-size: 100% 100%;
+ } 
+
+.doll
+{
+background-image: url(img/maus\ full.png);
+padding: 10em;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+header ul li a:hover
+{
+background-color: red;
+border-radius: 6px;
+}
+
+.pos-skill-container
+{
+    background-color: rgb(147, 147, 148);
+    border: 20;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 9px;
+}
+
+.pass-container
+{
+    background-color: rgb(147, 147, 148);
+    border: 20;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 9px;
+    background-image: url();
+}
+
+table td.stats-container
+{
+    display: flex;
+    background-color: red;
+}
+
+footer
+{
+    margin-top: auto;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    body {
+    }doll-bg
+        {
+        background-image: url(img/bg_a.jpg)
+        padding{ 65px 24px 25px}
+        background-position cover
+         background-repeat no-repeat
+        background-size {} }
+         .wrapper
+         margin: 0 auto;
+         width: 100%;
+         background-image: url(img/Camp_Preview_SE001.png);
+         nav
+        {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            background-image: url(img/1500x500.jpg);
+            background-position: center left;
+            background-repeat: no-repeat;
+            background-size: 1000px 400px;
+            padding: 10em;
+            min-height: 100vh;
+        }
+       
+    }
+  }
+
+  @media only screen and (max-width: 1024px ) {
+    body {
+        height: 768px;
+        .doll-bg
+         .wrapper
+         margin: 1 auto;
+         width: 71%;
+         background-image: url(img/Camp_Preview_SE001.png);
+         nav
+        {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            background-image: url(img/1500x500.jpg);
+            background-position: center left;
+            background-repeat: no-repeat;
+            background-size: 10px 400px;
+            padding: 10em;
+        }
+        .wrapper
+        {
+        margin: 0 auto;
+        width: 100%;
+        background-image: url(img/Camp_Preview_SE001.png);
+        }
+        {
+            margin-top: auto;
+            width: 100%;
+            height: 100px;
+        }
+        .pass-container{
+            background-color: rgb(147, 147, 148);
+            height: 768px;
+        }
+    }
+  }
